@@ -1,0 +1,10 @@
+﻿using task2;
+System.Console.WriteLine("---------------");
+var st2=new Student("Muhammd",18);
+st2.Study();
+System.Console.WriteLine(st2.GetGrade());
+System.Console.WriteLine("---------------");
+var st3=new Student("Samadov",20,11);
+st3.Study();
+System.Console.WriteLine(st3.GetGrade());
+System.Console.WriteLine("---------------");
